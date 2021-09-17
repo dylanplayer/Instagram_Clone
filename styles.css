@@ -1,7 +1,9 @@
+
 body {
 
     margin: 0px;
-    background-color: lightgrey;
+    background-color: #fafafa;
+    font-family: "Freight-Sans-Pro";
 
 }
 
@@ -15,7 +17,7 @@ header {
     background-color: white;
     padding-top: 8px;
     padding-bottom: 5px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #dbdbdb;
 
 }
 
@@ -28,8 +30,10 @@ header {
 .header-search {
 
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
+    margin-left: 10px;
+    width: 180px;
 
 }
 
@@ -46,7 +50,7 @@ header {
 
     width: 20px;
     height: 20px;
-    padding: 5px;
+    padding: 10px;
 
 }
 
@@ -61,10 +65,12 @@ header {
 
 .post {
 
-    width: 50%;
+    width: 414px;
     background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
 
 }
 
@@ -73,21 +79,127 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 20px;
+    justify-content: space-between;
+    padding: 3px;
+    padding-right: 10px;
+    padding-left: 8px;
+
+}
+
+.more-button {
+
+    width: 15px;
+    height: 15px;
+
+}
+
+.post .username{
+
+    font-size: 12px;
 
 }
 
 .profile-img {
 
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     padding-right: 10px;
 
 }
 
 .post-image{
 
-    width: 100%;
-    height: auto;
+    width: 414px;
+    height: 414px;
+
+}
+
+.interaction-bar {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.interaction-bar img{
+
+    width: 18px;
+    height: 18px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
+.comments{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.comment{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+.comment-content{
+
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+
+}
+
+.comment-bar {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+        
+}
+
+.comment-bar-left img{
+
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    padding-left: 3px;
+
+}
+
+.new-comment-input{
+
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 12px;
+    width: 300px;
+
+}
+
+.comment-bar-left {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.post-comment-button {
+
+    border: none;
+    background-color: transparent;
+    color: #0095F6;
 
 }
